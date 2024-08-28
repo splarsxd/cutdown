@@ -12,7 +12,7 @@ cdg_count = 0
 
 print("Cut Down | Coup de Grace")
 while True:
-    if hp > (maxhp * 0.5):
+    if hp > (maxhp * 0.6):
         hp -= (ad * 1.08)
         count += 1
     else:
